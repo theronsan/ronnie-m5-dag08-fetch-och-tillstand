@@ -120,6 +120,11 @@ function laddaVader(): void {
 
 // TODO 3: Lyssna på submit på vaderForm. Anropa preventDefault och sedan laddaVader().
 
+vaderForm.addEventListener('submit', (event) => {
+    event.preventDefault()
+    laddaVader()
+})
+
 // ---- Start ----
 visaOrder(orderRef, order, meny)
 laddaMenyn()
