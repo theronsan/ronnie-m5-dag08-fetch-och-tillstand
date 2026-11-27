@@ -10,7 +10,7 @@ import { hamtaMeny, hamtaVader } from './api'
 import { laddaMeny, laddaData } from './tillstand'
 import { visaTillstand, visaVader } from './tillstand-ui'
 import { hamta } from './dom'
-import type { Ratt, Filter, OrderRad, KlarMeny, FetchFn } from './typer'
+import type { Ratt, Filter, OrderRad, KlarMeny, Vader, FetchFn } from './typer'
 
 // Sätt till true om väder-API:et inte fungerar (till exempel på skolans nät).
 const ANVAND_RESERVDATA = false
@@ -100,7 +100,23 @@ const vaderFetch: FetchFn = ANVAND_RESERVDATA
 //   Anropa laddaData(() => hamtaVader(stad.lat, stad.lon, vaderFetch), vidTillstand).
 //   I vidTillstand: visaTillstand(vaderResultat, tillstand, { vidForsokIgen: laddaVader, visaKlar }).
 //   visaKlar ska anropa visaVader(container, stad.namn, tillstand.data).
-function laddaVader(): void {}
+function laddaVader(): void {
+    const stad = STADER[stadVal.value]
+    laddaData(
+        () => hamtaVader(stad.lat, stad.lon, vaderFetch),
+        (tillstand) => {
+            visaTillstand(vaderResultat, tillstand, {
+                vidForsokIgen: laddaVader,
+                visaKlar: (
+                    container: HTMLElement,
+                    tillstand: { typ: 'klar'; data: Vader }
+                ) => {
+                    visaVader(container, stad.namn, tillstand.data)
+                }
+            })
+        }
+    )
+}
 
 // TODO 3: Lyssna på submit på vaderForm. Anropa preventDefault och sedan laddaVader().
 
