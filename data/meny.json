@@ -1,92 +1,92 @@
 [
-  {
-    "id": 1,
-    "namn": "Kardemummabulle",
-    "pris": 35,
-    "kategori": "bakverk",
-    "vegetarisk": true,
-    "bild": "images/bulle.svg",
-    "beskrivning": "Bakad på färsk kardemumma och pärlsocker."
-  },
-  {
-    "id": 2,
-    "namn": "Bryggkaffe",
-    "pris": 32,
-    "kategori": "dryck",
-    "vegetarisk": true,
-    "bild": "images/kaffe.svg",
-    "beskrivning": "Lokalrostat, med fri påtår."
-  },
-  {
-    "id": 3,
-    "namn": "Ostmacka",
-    "pris": 59,
-    "kategori": "lunch",
-    "vegetarisk": true,
-    "bild": "images/smorgas.svg",
-    "beskrivning": "Surdegsbröd, lagrad ost och krispig sallad."
-  },
-  {
-    "id": 4,
-    "namn": "Skinkmacka",
-    "pris": 62,
-    "kategori": "lunch",
-    "vegetarisk": false,
-    "bild": "images/smorgas.svg",
-    "beskrivning": "Surdegsbröd, kokt skinka och senap."
-  },
-  {
-    "id": 5,
-    "namn": "Latte",
-    "pris": 45,
-    "kategori": "dryck",
-    "vegetarisk": true,
-    "bild": "images/kaffe.svg",
-    "beskrivning": "Espresso med ångad mjölk."
-  },
-  {
-    "id": 6,
-    "namn": "Kanelbulle",
-    "pris": 33,
-    "kategori": "bakverk",
-    "vegetarisk": true,
-    "bild": "images/bulle.svg",
-    "beskrivning": "Klassikern, bakad varje morgon."
-  },
-  {
-    "id": 7,
-    "namn": "Quiche med lax",
-    "pris": 79,
-    "kategori": "lunch",
-    "vegetarisk": false,
-    "bild": "images/smorgas.svg",
-    "beskrivning": "Mördegsbotten, lax och dill."
-  },
-  {
-    "id": 8,
-    "namn": "Chokladboll",
-    "pris": 25,
-    "kategori": "bakverk",
-    "vegetarisk": true,
-    "bild": "images/bulle.svg",
-    "beskrivning": "Havre, kakao och kokos."
-  },
-  {
-    "id": 9,
-    "namn": "Iskaffe",
-    "pris": 42,
-    "kategori": "dryck",
-    "vegetarisk": true,
-    "bild": "images/kaffe.svg",
-    "beskrivning": "Kallbryggt kaffe med is och en skvätt mjölk."
-  },
-  {
-    "id": 10,
-    "namn": "Varm choklad",
-    "pris": 40,
-    "kategori": "dryck",
-    "vegetarisk": true,
-    "bild": "images/kaffe.svg",
-    "beskrivning": "Riktig choklad, grädde och kanel."
-  }
+    {
+        "id": 1,
+        "namn": "Kardemummabulle",
+        "pris": 35,
+        "kategori": "bakverk",
+        "vegetarisk": true,
+        "bild": "images/bulle.svg",
+        "beskrivning": "Bakad på färsk kardemumma och pärlsocker."
+    },
+    {
+        "id": 2,
+        "namn": "Bryggkaffe",
+        "pris": 32,
+        "kategori": "dryck",
+        "vegetarisk": true,
+        "bild": "images/kaffe.svg",
+        "beskrivning": "Lokalrostat, med fri påtår."
+    },
+    {
+        "id": 3,
+        "namn": "Ostmacka",
+        "pris": 59,
+        "kategori": "lunch",
+        "vegetarisk": true,
+        "bild": "images/smorgas.svg",
+        "beskrivning": "Surdegsbröd, lagrad ost och krispig sallad."
+    },
+    {
+        "id": 4,
+        "namn": "Skinkmacka",
+        "pris": 62,
+        "kategori": "lunch",
+        "vegetarisk": false,
+        "bild": "images/smorgas.svg",
+        "beskrivning": "Surdegsbröd, kokt skinka och senap."
+    },
+    {
+        "id": 5,
+        "namn": "Latte",
+        "pris": 45,
+        "kategori": "dryck",
+        "vegetarisk": true,
+        "bild": "images/kaffe.svg",
+        "beskrivning": "Espresso med ångad mjölk."
+    },
+    {
+        "id": 6,
+        "namn": "Kanelbulle",
+        "pris": 33,
+        "kategori": "bakverk",
+        "vegetarisk": true,
+        "bild": "images/bulle.svg",
+        "beskrivning": "Klassikern, bakad varje morgon."
+    },
+    {
+        "id": 7,
+        "namn": "Quiche med lax",
+        "pris": 79,
+        "kategori": "lunch",
+        "vegetarisk": false,
+        "bild": "images/smorgas.svg",
+        "beskrivning": "Mördegsbotten, lax och dill."
+    },
+    {
+        "id": 8,
+        "namn": "Chokladboll",
+        "pris": 25,
+        "kategori": "bakverk",
+        "vegetarisk": true,
+        "bild": "images/bulle.svg",
+        "beskrivning": "Havre, kakao och kokos."
+    },
+    {
+        "id": 9,
+        "namn": "Iskaffe",
+        "pris": 42,
+        "kategori": "dryck",
+        "vegetarisk": true,
+        "bild": "images/kaffe.svg",
+        "beskrivning": "Kallbryggt kaffe med is och en skvätt mjölk."
+    },
+    {
+        "id": 10,
+        "namn": "Varm choklad",
+        "pris": 40,
+        "kategori": "dryck",
+        "vegetarisk": true,
+        "bild": "images/kaffe.svg",
+        "beskrivning": "Riktig choklad, grädde och kanel."
+    }
 ]
